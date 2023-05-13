@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos globais */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Estilos do header */
+  header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+  
+  header .logo {
+    float: left;
+  }
+  
+  header .logo h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  header nav {
+    float: right;
+  }
+  
+  header nav ul {
+    list-style: none;
+  }
+  
+  header nav ul li {
+    display: inline-block;
+  }
+  
+  header nav ul li a {
+    display: block;
+    padding: 20px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  header nav ul li a:hover {
+    background-color: #eee;
+  }
+  
+  /* Estilos do hero */
+  .hero {
+    
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+  }
+  
+  .hero h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .hero p {
+    font-size: 24px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .hero .btn {
+    display: block;
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    background-color: #ff7f50;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 30px;
+    margin: 0 auto;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .hero .btn:hover {
+    background-color: #ff6347;
+  }
+  
+  /* Estilos do services */
+  .services {
+    background-color: #f9f9f9;
+    padding: 80px 0;
+  }
+  
+  .services h3 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .services-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .service-item {
+    width: calc(33.33% - 20px);
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-bottom: 40px;
+    transition: box-shadow 0.2s ease-in-out;
+  }
+  
+  .service-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .service-item h4 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
